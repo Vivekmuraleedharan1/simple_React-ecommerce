@@ -1,0 +1,41 @@
+.header {
+    background-color: #151a1f;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header h1 {
+    margin: 0;
+    color: #00df9a;
+
+}
+
+.logout-btn {
+    background-color: #55dc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 764px){
+    .header {
+        /* width: 100%; */
+    background-color: #151a1f;
+    padding: 16px;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    }
+
+    .logout-btn {
+    background-color: #55dc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+
+    }
+}
